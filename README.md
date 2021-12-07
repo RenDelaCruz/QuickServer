@@ -19,3 +19,15 @@ $ python -m server 8000
 ## Shutdown
 
 Press `Ctrl+C` to shutdown the server.
+
+## Use in a script
+
+```python
+from server import QuickServer
+
+try:
+    server = QuickServer(port=8000)
+    server.run()
+except KeyboardInterrupt:
+    server.stop()
+```
