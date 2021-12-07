@@ -7,13 +7,13 @@ Create a quick HTTP server using Python.
 Clone this repository and move `server.py` into any directory. Then simply run:
 
 ```shell
-python -m server
+$ python -m server
 ```
 
 You can also specify the port:
 
 ```shell
-python -m server 8000
+$ python -m server 8000
 ```
 
 ## Shutdown
