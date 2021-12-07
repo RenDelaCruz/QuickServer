@@ -1,10 +1,10 @@
 # QuickServer
 
-Create a quick HTTP server using Python. Clone this repository and move `server.py` into any directory.
+Create a quick HTTP server using Python.
 
 ## Setup
 
-After moving `server.py` into a directory, simply run:
+Clone this repository and move `server.py` into any directory. Then simply run:
 
 ```shell
 python -m server
